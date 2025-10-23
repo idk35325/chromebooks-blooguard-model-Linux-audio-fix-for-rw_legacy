@@ -1,6 +1,7 @@
 # HP Chromebook x360 14a/14b Audio Fix for Linux (rw_legacy)
 
-
+This project restores working audio (speakers and headphones) on HP Chromebook x360 14a and 14b (CA0) running Linux, without needing a full ROM update.  
+Tested on Pop!_OS and Ubuntu. It may work on other Linux distributions — contributions welcome.
 
 # 🎧 HP Chromebook x360 14a/14b-ca0 Audio Fix (rw_legacy)
 
