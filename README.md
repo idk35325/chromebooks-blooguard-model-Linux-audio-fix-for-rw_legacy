@@ -35,8 +35,5 @@ If you test and confirm it works on other distros, please open an **issue** or *
 ---
 
 ## ⚙️ Installation
-git installed
-### 1. Clone this repository
-```bash
-git clone https://github.com/idk35325/hp-x360-14a-ca0-audio-fix.git
-cd hp-x360-14a-ca0-audio-fix
+nano installed 
+
