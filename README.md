@@ -7,7 +7,7 @@ Tested on Pop!_OS and Ubuntu. It may work on other Linux distributions — contr
 
 This project provides a tested **audio fix** for the **HP Chromebook x360 14a-ca0 / 14b-ca0** models when running **Linux** with **MrChromebox rw_legacy firmware**.
 
-If you’re using a **full ROM** flash, you probably don’t need this — this fix is designed for **rw_legacy users** who want to keep ChromeOS boot options but still have working audio in Linux.
+If you’re using a **full ROM** flash, you probably will need this — this fix is designed for **rw_legacy users** who want to keep ChromeOS boot options but still have working audio in Linux.
 
 ---
 
