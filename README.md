@@ -1,5 +1,6 @@
-# chromebooks-blooguard-model-Linux-audio-fix-for-rw_legacy
-chromebook-14a-14b-ca0-rwlegacy-audio-fix
+# HP Chromebook x360 14a/14b Audio Fix for Linux (rw_legacy)
+
+
 
 # 🎧 HP Chromebook x360 14a/14b-ca0 Audio Fix (rw_legacy)
 
@@ -34,6 +35,41 @@ If you test and confirm it works on other distros, please open an **issue** or *
 
 ---
 
-## ⚙️ Installation
-nano installed 
+⚙️ Installation (Manual Method)
+
+If you already have nano installed, you can manually add the audio fix to GRUB.
+
+1. Open the GRUB configuration file
+sudo nano /etc/default/grub
+
+2. Find the line
+
+GRUB_CMDLINE_yourusername_DEFAULT=3.
+
+GRUB_CMDLINE_yourusername_DEFAULT="quiet splash snd_intel_dspcfg.dsp_driver=3"
+
+💡 Important: Do not change the _DEFAULT part — that’s the correct GRUB variable name.
+
+only your username
+
+4. Save and exit nano
+
+Press Ctrl + O → then Enter to save
+
+Press Ctrl + X to exit
+
+5. Update GRUB
+sudo update-grub
+
+6. Reboot your Chromebook
+sudo reboot
+
+
+✅ After reboot, your sound (speakers and headphone jack) should now work.
+
+## ⚡ Features / Why It Works
+
+- Forces the Intel audio driver to use the legacy HDA interface.
+- Works with rw_legacy firmware (no full ROM update required).
+- Tested on Pop!_OS and Ubuntu.
 
