@@ -15,28 +15,28 @@ Many Chromebook users (especially on HP x360 14a/14b models) lose sound after in
 This fix restores audio output by restoring known-good **GRUB + ALSA** configurations from a verified backup that has been tested and confirmed working.
 
 **Confirmed working on:**
-- ✅ HP Chromebook x360 14a-ca0
-- ✅ HP Chromebook x360 14b-ca0
+- ✅ HP Chromebook x360 14a-ca0  
+- ✅ HP Chromebook x360 14b-ca0  
 
 **Tested Linux distributions:**
-- 🟢 Pop!_OS 22.04 / 24.04
-- 🟢 Ubuntu 22.04 / 24.04
+- 🟢 Pop!_OS 22.04 / 24.04  
+- 🟢 Ubuntu 22.04 / 24.04  
 
 **May also work on:**
-- 🟡 Linux Mint
-- 🟡 Debian
-- 🟡 Fedora
-- 🟡 Elementary OS
-- 🟡 Zorin OS
-- 🟡 GalliumOS (if using custom kernel)
+- 🟡 Linux Mint  
+- 🟡 Debian  
+- 🟡 Fedora  
+- 🟡 Elementary OS  
+- 🟡 Zorin OS  
+- 🟡 GalliumOS (with custom kernel)  
 
 If you test and confirm it works on other distros, please open an **issue** or **pull request** so we can update the list!
 
 ---
 
 ## ⚙️ Installation
-
+git installed
 ### 1. Clone this repository
 ```bash
-git clone https://github.com/<yourusername>/hp-x360-14a-ca0-audio-fix.git
+git clone https://github.com/idk35325/hp-x360-14a-ca0-audio-fix.git
 cd hp-x360-14a-ca0-audio-fix
